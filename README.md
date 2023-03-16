@@ -44,4 +44,5 @@ All the plots presented in our work can be visualizeed by using the events files
 ## Bibliography
 
 [1] Figueroa S. and Morocho M..... "A webcam artificial intelligence-based gaze-tracking algorithm".
+
 [2] Gudi, A., Li, X., & van Gemert, J. (2020). Efficiency in real-time webcam gaze tracking. In Computer Vision–ECCV 2020 Workshops: Glasgow, UK, August 23–28, 2020, Proceedings, Part I 16 (pp. 529-543). Springer International Publishing.
