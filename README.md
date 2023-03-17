@@ -21,11 +21,12 @@ Nothing new...
 
 ## Dataset
 
-MPIIFaceGaze dataset was used, to download the dataset click [here](https://perceptualui.org/research/datasets/MPIIFaceGaze/). Next, you migth need to pre-process the images by running ..... or download the preprocessed dataset by clicking [here](https://drive.google.com/file/d/1feDiiel0rxhrPLI1Xcw4Fv6N8_Ibk8Vg/view?usp=sharing).
+MPIIFaceGaze dataset was used, to download the dataset click [here](https://perceptualui.org/research/datasets/MPIIFaceGaze/). Next, you migth need to pre-process the images by running ```python dataset/mpii_face_gaze_preprocessing.py --input_path=./MPIIFaceGaze --output_path=./data``` or download the preprocessed dataset by clicking [here](https://drive.google.com/file/d/1feDiiel0rxhrPLI1Xcw4Fv6N8_Ibk8Vg/view?usp=sharing). Next, create a data folder to unzip the preprocessed MPIIFaceGaze dataset.
 
 
 ## Pretrained Models
-To replicate results, you might need to download the respective pxx.ckpt files for VGG-16 or ResNet-50 model. Please download the [pretrained_models_VGG-16](https://drive.google.com/file/d/1qv7pbBDILplEIsoVA6cKtwFzX7Ga5vYe/view?usp=sharing) or [pretrained_models_ResNet-50](https://drive.google.com/file/d/10JgeeAjLMsgg4emoOJCMkH5B2oikJb0_/view?usp=sharing).
+To replicate results, you might need to download the respective pxx.ckpt files for VGG-16 or ResNet-50 model. Please download the [pretrained_models_VGG-16](https://drive.google.com/file/d/1qv7pbBDILplEIsoVA6cKtwFzX7Ga5vYe/view?usp=sharing) or [pretrained_models_ResNet-50](https://drive.google.com/file/d/10JgeeAjLMsgg4emoOJCMkH5B2oikJb0_/view?usp=sharing). Next, create a 'pretrained_models' folder to unzip the pretrained models downloaded inside that rootpath.
+
 
 
 ## Training process
