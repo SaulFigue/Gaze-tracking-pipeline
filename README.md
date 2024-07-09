@@ -1,6 +1,6 @@
 # A webcam artificial intelligence-based gaze-tracking algorithm
 
-This repository provide an implementation code to replicate Figueroa S. and Morocho M. study results in their work ["A webcam artificial intelligence-based gaze-tracking algorithm"](https://drive.google.com/file/d/1Qt2q5KTAwVzkINAolY5xdCDt21Sz8Zfq/view?usp=sharing) [1] which presents a comparison analysis between our proposed model based on ResNet-50 pre-trained on ImageNet and 'benchmark' model presented in ["Efficiency in Real-Time Webcam Gaze Tracking"](https://arxiv.org/abs/2009.01270) [2] work. In addition, the source code implementation is a modification of [pperle
+This repository provide an implementation code to replicate Figueroa, S.; Pineda, I.; Vizcaíno, P.; Reyes-Chacón, I. and Morocho-Cayamcela, M. study results in their work ["A webcam artificial intelligence-based gaze-tracking algorithm"][1] which presents a comparison analysis between our proposed model based on ResNet-50 pre-trained on ImageNet and 'benchmark' model presented in ["Efficiency in Real-Time Webcam Gaze Tracking"](https://arxiv.org/abs/2009.01270) [2] work. In addition, the source code implementation is a modification of [pperle
 Pascal repository](https://github.com/pperle/gaze-tracking) where an evaluation of a monocular eye tracking set-up work is performed.
 
 ![ProposedModelPipeline](https://raw.githubusercontent.com/SaulFigue/Gaze-tracking-pipeline/main/images/Pipeline.png)
@@ -118,6 +118,6 @@ tennsorboard --logdir=./
 
 ## Bibliography
 
-[1] Figueroa S. and Morocho M..... "A webcam artificial intelligence-based gaze-tracking algorithm".
+[1] Figueroa, S.; Pineda, I.; Vizcaíno, P.; Reyes-Chacón, I. and Morocho-Cayamcela, M. (2024). A Webcam Artificial Intelligence-Based Gaze-Tracking Algorithm.  In Proceedings of the 19th International Conference on Software Technologies, ISBN 978-989-758-706-1, ISSN 2184-2833, pages 228-235.
 
 [2] Gudi, A., Li, X., & van Gemert, J. (2020). Efficiency in real-time webcam gaze tracking. In Computer Vision–ECCV 2020 Workshops: Glasgow, UK, August 23–28, 2020, Proceedings, Part I 16 (pp. 529-543). Springer International Publishing.
